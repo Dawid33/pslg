@@ -2,9 +2,12 @@
 //int[] arr = {7,1,14,11}
 //int[] arr = {3,1,7,11}
 
-class Program {
+class Problem1 {
     public static void main(String[] args) {
         int[] arr = {7,1,14,11};
+        int a;
+        int b = a;
+
         for(int i = 0; i < arr.length; i++) {
             int n = arr[i];
             for(int j = 0; j < arr.length; j++) {

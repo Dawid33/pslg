@@ -26,3 +26,13 @@ Example 3:
 Input: arr = [3,1,7,11]
 Output: false
 Explanation: In this case does not exist N and M, such that N = 2 * M.
+
+
+
+## Questions
+
+Could somebody in their own words explain what an array is?
+
+A. Familiar with arrays
+B. Rusty about the subject from last semester
+C. Can't remember

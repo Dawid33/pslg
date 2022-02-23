@@ -3,25 +3,19 @@ import java.util.Arrays;
 
 class Problem2 {
     public static void main(String[] args) {
-        ArrayList<Integer> numbers = new ArrayList<Integer>(Arrays.asList(1,5,3,7,2));
+        String input = "I am human";
+        String wordToSearch = "am";
+        String wordToAdd = "(not)";
+        ArrayList<String> words = new ArrayList<String>(Arrays.asList(input.split(" ")));
 
-        for (int i = 0; i < numbers.size(); i++) {
-            for (int j = 0; j < numbers.size(); j++) {
-                if (j == numbers.size() - 1) {
-                    continue;
-                }
-
-                if (numbers.get(j) > numbers.get(j + 1)) {
-                    // Swap j and j + 1
-                    int temp = numbers.get(j + 1);
-                    numbers.set(j + 1,  numbers.get(j));
-                    numbers.set(j, temp);
-                }
+        for (int i = 0; i < words.size(); i++) {
+            if (words.get(i).equals(wordToSearch)) {
+                words.add(i + 1,  wordToAdd);
             }
         }
 
-        for (int i = 0; i < numbers.size(); i++) {
-            System.out.println(numbers.get(i));
+        for ( int i = 0; i < words.size(); i++) {
+            System.out.print(words.get(i) + " ");
         }
     }
 }

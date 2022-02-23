@@ -1,9 +1,9 @@
 import java.util.*;
 
-class Problem2 {
+class Problem2Blank {
     public static void main(String[] args) {
-        ArrayList<Integer> numbers = new ArrayList<Integer>(10);
+        ArrayList<Integer> numbers = new ArrayList<Integer>(Arrays.asList(1,5,3,7,2));
 
-        // Result should be 70.
+
     }
 }

@@ -1,9 +1,8 @@
-import java.lang.reflect.Array;
 import java.util.*;
+import java.awt.*;
 
-
-class Problem1Blank {
-    public static void main(String args[]) {
+class Problem1Blank extends Frame{
+    public static void main(String[] args) {
 
     }
 }

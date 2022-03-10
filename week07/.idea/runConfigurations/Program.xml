@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Problem1" type="Application" factoryName="Application">
-    <option name="MAIN_CLASS_NAME" value="Problem1" />
+  <configuration default="false" name="Program" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="Program" />
     <module name="week07" />
     <method v="2">
       <option name="Make" enabled="true" />

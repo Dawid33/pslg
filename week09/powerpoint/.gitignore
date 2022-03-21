@@ -1,0 +1,4 @@
+main.*
+!main.tex
+.vscode
+_minted-main

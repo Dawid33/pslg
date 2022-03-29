@@ -1,10 +1,19 @@
 import java.io.File;
-import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class FileTest {
     public static void main(String args[]) {
+        File myfile = new File("hello");
 
+        try {
+            Scanner reader = new Scanner(myfile);
+            while(reader.hasNext()) {
+                System.out.println(reader.next());
+            }
+
+        } catch(Exception e) {
+            System.out.println("Got exeception : " + e.getMessage());
+        }
 
     }
 }
@@ -18,16 +27,7 @@ public class FileTest {
 
 
 
-//        try {
-//            File myfile = new File("hello");
-//            Scanner s = new Scanner(myfile);
-//            while(s.hasNext()) {
-//                String theNextLine = s.next();
-//                System.out.println(theNextLine);
-//            }
-//        } catch(Exception e) {
-//            System.out.println("Got Error : " + e.getMessage());
-//        }
+
 
 //        try {
 //            File myfile = new File("resources/mydata.txt");

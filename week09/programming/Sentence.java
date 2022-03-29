@@ -35,9 +35,13 @@ public class Sentence {
 //            }
 //        }
 
-//        words = reverse(words);
+//        String input = "This is my sentence!";
+//        String newInput = "";
+//
+//        String[] words = input.split(" ");
+//
 //        for (String word : words) {
-//            System.out.println(word);
+//            System.out.print(word);
 //        }
     }
 
